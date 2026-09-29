@@ -1,0 +1,1 @@
+{"learning_rate":0.0003,"micro_batch":2,"gradient_accumulation":1,"max_steps":100,"save_every":25,"eval_every":10,"mask_ratio":0.15,"precision":"fp32","gradient_clip":1.0,"activation_checkpointing":false,"device":"cuda","seed":42,"sequence_length":128}

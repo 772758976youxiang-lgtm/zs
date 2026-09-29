@@ -1,0 +1,32 @@
+{
+  "timestamp": "2026-09-29T09:59:12.118294+00:00",
+  "checks": [
+    {
+      "name": "backend-tests",
+      "exit_code": 0,
+      "output": "docs/verification/backend-tests.txt"
+    },
+    {
+      "name": "python-format",
+      "exit_code": 0,
+      "output": "docs/verification/python-format.txt"
+    },
+    {
+      "name": "frontend-tests",
+      "exit_code": 0,
+      "output": "docs/verification/frontend-tests.txt"
+    },
+    {
+      "name": "frontend-build",
+      "exit_code": 0,
+      "output": "docs/verification/frontend-build.txt"
+    },
+    {
+      "name": "cpu-smoke",
+      "exit_code": 0,
+      "output": "docs/verification/cpu-smoke.txt"
+    }
+  ],
+  "gpu": "not executed: no compatible NVIDIA CUDA GPU detected",
+  "success": true
+}

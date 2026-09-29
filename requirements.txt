@@ -1,0 +1,12 @@
+torch==2.8.0
+fastapi==0.116.1
+uvicorn==0.35.0
+pydantic==2.11.7
+python-multipart==0.0.20
+safetensors==0.6.2
+pytest==8.4.1
+httpx==0.28.1
+psutil==7.0.0
+numpy==2.2.6
+filelock==4.0.6
+ruff==0.12.10

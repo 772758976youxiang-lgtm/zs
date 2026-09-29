@@ -1,0 +1,16 @@
+
+> unit-training-workbench@1.0.0 test
+> node --test tests/*.test.mjs
+
+✔ 码点跨度和原文无损 (0.9022ms)
+✔ 两条金标切分与重复保留 (0.1492ms)
+✔ 空文本 (0.0708ms)
+✔ 切换样本前提交边界并保留身份和来源 (0.144ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 58.0534

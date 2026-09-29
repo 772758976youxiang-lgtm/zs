@@ -1,0 +1,1 @@
+{"status": "passed", "output": "docs/smoke-results.json", "pretrain_step": 8, "finetune_step": 12, "pause_step": 1, "stop_step": 2}

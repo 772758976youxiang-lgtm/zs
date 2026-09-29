@@ -1,0 +1,13 @@
+
+> unit-training-workbench@1.0.0 build
+> tsc -b && vite build
+
+vite v6.4.3 building for production...
+transforming...
+✓ 1582 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.43 kB │ gzip:  0.33 kB
+dist/assets/index-D50ORcwd.css   17.91 kB │ gzip:  4.85 kB
+dist/assets/index-BCgssKYJ.js   232.48 kB │ gzip: 73.20 kB
+✓ built in 1.25s

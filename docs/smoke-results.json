@@ -1,0 +1,307 @@
+{
+  "system": {
+    "os": "Windows-10-10.0.26200-SP0",
+    "python": "3.11.9",
+    "torch": "2.8.0+cpu",
+    "cuda_build": null,
+    "cuda_available": false,
+    "devices": [],
+    "driver": null,
+    "ram_available_bytes": 2061271040,
+    "precision": {
+      "fp32": true,
+      "fp16": false,
+      "bf16": false
+    },
+    "diagnostic": "未检测到可用 CUDA GPU。正式模型禁止在 CPU 启动；可显式选择 CPU 调试小模型。",
+    "inference_device": "cpu"
+  },
+  "pretrain": {
+    "id": "ebff74cc7194437bb59b6ab2dcbc0e2f",
+    "task": "pretrain",
+    "status": "completed",
+    "model_id": "98f5296910784969a5d099c615763476",
+    "dataset_id": "311994543b1b425a85482b89b551afe8",
+    "global_step": 8,
+    "metrics": {
+      "type": "metrics",
+      "global_step": 8,
+      "train_loss": 2.9243056774139404,
+      "val_loss": null,
+      "learning_rate": 0.0,
+      "gradient_norm": 3.6182749271392822,
+      "chars_per_second": 3225.8064558770234,
+      "elapsed_seconds": 0.2627968000015244,
+      "masked_accuracy": 0.16666666666666666,
+      "epoch": 8.0,
+      "device": "cpu",
+      "gpu_allocated": null,
+      "gpu_reserved": null,
+      "gpu_device_used": null,
+      "gpu_device_total": null,
+      "gpu_utilization": null,
+      "train_eval_loss": 3.0094399452209473,
+      "train_masked_accuracy": 0.0
+    },
+    "config": {
+      "learning_rate": 0.001,
+      "micro_batch": 2,
+      "gradient_accumulation": 1,
+      "max_steps": 8,
+      "save_every": 4,
+      "eval_every": 4,
+      "mask_ratio": 0.15,
+      "precision": "fp32",
+      "gradient_clip": 1.0,
+      "activation_checkpointing": false,
+      "device": "cpu",
+      "seed": 42,
+      "sequence_length": 32
+    },
+    "error": null,
+    "last_checkpoint_id": "ebff74cc7194437bb59b6ab2dcbc0e2f-step-00000008-b2811b14",
+    "best_checkpoint_id": null,
+    "rule_version": "unit-v1",
+    "dataset_hash": "a27c04c90716a253ad8adfc92ae0dc42b6ea6b10267d28a8132b4ca0b0e6c2a1",
+    "parent_checkpoint_id": null,
+    "demo_overfit": false,
+    "spec_path": "runs\\ebff74cc7194437bb59b6ab2dcbc0e2f\\spec.json",
+    "spec_hash": "7982fafc988e23218b148aa4a1dcc5b6354699820c7cc5b85419067687a0f0ac",
+    "control": null,
+    "generation": "45f2b1a52e16481a9d9f8c030e446e1d",
+    "created_at": "2026-09-29T09:59:01.046047+00:00",
+    "updated_at": "2026-09-29T09:59:03.643546+00:00",
+    "queued_at": 1790675941.0460477,
+    "pid": 35604,
+    "pid_created": 1790675941.0726535,
+    "exit_code": 0
+  },
+  "finetune": {
+    "id": "1b1b00de34814b3aafd5953058fadb2a",
+    "task": "finetune",
+    "status": "completed",
+    "model_id": "98f5296910784969a5d099c615763476",
+    "dataset_id": "3d9415084fc741a48a43d2c73f38d47e",
+    "global_step": 12,
+    "metrics": {
+      "type": "metrics",
+      "global_step": 12,
+      "train_loss": 0.25599151849746704,
+      "val_loss": null,
+      "learning_rate": 0.0,
+      "gradient_norm": 1.1762566566467285,
+      "chars_per_second": 2976.863822566642,
+      "elapsed_seconds": 0.44902250001905486,
+      "masked_accuracy": null,
+      "epoch": 12.0,
+      "device": "cpu",
+      "gpu_allocated": null,
+      "gpu_reserved": null,
+      "gpu_device_used": null,
+      "gpu_device_total": null,
+      "gpu_utilization": null,
+      "train_eval_loss": 0.2419290989637375,
+      "train_boundary_precision": 0.8695652173913043,
+      "train_boundary_recall": 1.0,
+      "train_boundary_f1": 0.9302325581395349,
+      "train_segment_precision": 0.76,
+      "train_segment_recall": 0.8636363636363636,
+      "train_segment_f1": 0.8085106382978723,
+      "train_sentence_accuracy": 0.0,
+      "train_reconstruction_rate": 1.0
+    },
+    "config": {
+      "learning_rate": 0.001,
+      "micro_batch": 2,
+      "gradient_accumulation": 1,
+      "max_steps": 12,
+      "save_every": 4,
+      "eval_every": 4,
+      "mask_ratio": 0.15,
+      "precision": "fp32",
+      "gradient_clip": 1.0,
+      "activation_checkpointing": false,
+      "device": "cpu",
+      "seed": 42,
+      "sequence_length": 32
+    },
+    "error": null,
+    "last_checkpoint_id": "1b1b00de34814b3aafd5953058fadb2a-step-00000012-263b3dbd",
+    "best_checkpoint_id": null,
+    "rule_version": "unit-v1",
+    "dataset_hash": "7478a89b57a5d52249896b22140100f59eb60e1b5a0a6db3bb25be64d32422a5",
+    "parent_checkpoint_id": "ebff74cc7194437bb59b6ab2dcbc0e2f-step-00000008-b2811b14",
+    "demo_overfit": true,
+    "spec_path": "runs\\1b1b00de34814b3aafd5953058fadb2a\\spec.json",
+    "spec_hash": "38351329b0a3c765d97b0bafa10c27407f8aae6331669aee1d27d4d35002dfdb",
+    "control": null,
+    "generation": "8ffa48943cea4b22abe973ea8e2bf114",
+    "created_at": "2026-09-29T09:59:03.748089+00:00",
+    "updated_at": "2026-09-29T09:59:06.691993+00:00",
+    "queued_at": 1790675943.7480893,
+    "pid": 23692,
+    "pid_created": 1790675943.7770956,
+    "exit_code": 0
+  },
+  "mlm": {
+    "text": "我养了一只猫叫魔丸",
+    "mask_positions": [
+      5
+    ],
+    "predictions": [
+      {
+        "position": 5,
+        "candidates": [
+          {
+            "character": "都",
+            "probability": 0.08369222283363342
+          },
+          {
+            "character": "了",
+            "probability": 0.06731609255075455
+          },
+          {
+            "character": "养",
+            "probability": 0.06348007172346115
+          },
+          {
+            "character": "很",
+            "probability": 0.06188027560710907
+          },
+          {
+            "character": "叫",
+            "probability": 0.06097697839140892
+          }
+        ]
+      }
+    ],
+    "checkpoint_id": "ebff74cc7194437bb59b6ab2dcbc0e2f-step-00000008-b2811b14",
+    "global_step": 8,
+    "device": "cpu",
+    "latency_ms": 8.660599996801466,
+    "offset_unit": "unicode_codepoint",
+    "warning": null,
+    "unknown_char_count": 0,
+    "vocabulary_warning": null
+  },
+  "units": {
+    "text": "我养了十二只猫，它们都很乖很可爱",
+    "units": [
+      "我",
+      "养",
+      "了",
+      "十",
+      "二",
+      "只",
+      "猫",
+      "，",
+      "它",
+      "们",
+      "都",
+      "很",
+      "乖",
+      "很",
+      "可",
+      "爱"
+    ],
+    "spans": [
+      [
+        0,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        4
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        6
+      ],
+      [
+        6,
+        7
+      ],
+      [
+        7,
+        8
+      ],
+      [
+        8,
+        9
+      ],
+      [
+        9,
+        10
+      ],
+      [
+        10,
+        11
+      ],
+      [
+        11,
+        12
+      ],
+      [
+        12,
+        13
+      ],
+      [
+        13,
+        14
+      ],
+      [
+        14,
+        15
+      ],
+      [
+        15,
+        16
+      ]
+    ],
+    "boundary_probabilities": [
+      0.8779693245887756,
+      0.8372958898544312,
+      0.9210357069969177,
+      0.6555447578430176,
+      0.9185466766357422,
+      0.8897655606269836,
+      0.8433994650840759,
+      0.8846086859703064,
+      0.9001923203468323,
+      0.8552461862564087,
+      0.90743088722229,
+      0.8882231116294861,
+      0.8066585063934326,
+      0.9102641940116882,
+      0.5902036428451538
+    ],
+    "offset_unit": "unicode_codepoint",
+    "rule_version": "unit-v1",
+    "checkpoint_id": "1b1b00de34814b3aafd5953058fadb2a-step-00000012-263b3dbd",
+    "global_step": 12,
+    "threshold": 0.5,
+    "device": "cpu",
+    "latency_ms": 7.523400010541081,
+    "warning": null,
+    "unknown_char_count": 0,
+    "vocabulary_warning": null
+  },
+  "pause_step": 1,
+  "stop_step": 2,
+  "concurrent_start_http": 409,
+  "sse_replayed": 13,
+  "export_bytes": 315682,
+  "note": "CPU debug smoke only; no independent validation dataset; no GPU or generalization claim."
+}

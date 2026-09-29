@@ -1,0 +1,2 @@
+{"text":"我养了一只猫叫魔丸","units":["我","养","了","一","只","猫","叫","魔丸"],"group_id":"teaching-1","source":"user_confirmed","status":"confirmed","split":"train","rule_version":"unit-v1"}
+{"text":"我养了十二只猫，它们都很乖很可爱","units":["我","养","了","十二","只","猫","，","它","们","都","很","乖","很","可爱"],"group_id":"teaching-2","source":"user_confirmed","status":"confirmed","split":"train","rule_version":"unit-v1"}
